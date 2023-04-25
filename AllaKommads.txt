@@ -1,0 +1,60 @@
+git init: skapar ett nytt Git-förråd
+git clone: skapar en kopia av ett fjärrlager på din lokala maskin
+git add: lägger till ändringar i uppställningsområdet
+git commit: sparar ändringar i det lokala arkivet
+git status: visar det aktuella tillståndet för förvaret
+git push: laddar upp lokala ändringar till ett fjärrlager
+git pull: hämtar och slår samman ändringar från ett fjärrlager
+git fetch: hämtar ändringar från ett fjärrlager
+git merge: kombinerar ändringar från en gren till en annan
+git branch: listar alla grenar i förvaret
+git checkout: byter till en annan filial
+git logg: visar commit-historiken
+git diff: visar skillnader mellan versioner av en fil
+git stash: lagrar tillfälligt ändringar som inte är redo att utföras
+git reset: tar bort ändringar från mellanställningsområdet eller ångrar en commit
+git revert: skapar en ny commit som ångrar ändringarna av en tidigare commit
+git cherry-pick: tillämpar ändringarna av en specifik commit på den aktuella grenen
+git blame: visar vem som gjorde varje ändring i en fil och när de gjorde den
+git remote: visar fjärrarkiven som är associerade med det lokala arkivet
+git tagg: lägger till en tagg till en specifik commit för att märka den
+git fetch --prune: tar bort alla fjärrspårningsgrenar som inte längre existerar
+git checkout -b: skapar en ny gren och byter till den
+git checkout --: kasserar ändringar i en fil och återställer den till den senaste versionen
+git log --graph: visar commit-historiken som en graf
+git log --oneline: visar commit-historiken i ett komprimerat format
+git merge --abort: avbryter en sammanfogningsoperation
+git rm: tar bort en fil från förvaret
+git mv: byter namn på en fil i arkivet
+git show: visar ändringarna som gjorts i en specifik commit
+git grep: söker efter en specifik sträng i förvaret
+git shortlog: visar commit-historiken i ett sammanfattat format
+git reflog: visar en logg över alla Git-kommandon som har körts i förvaret
+git config: ställer in konfigurationsalternativ för Git
+git clone --depth: skapar en ytlig klon av ett arkiv med begränsad historia
+git rebase: integrerar ändringar från en gren till en annan genom att skriva om commit-historiken
+git bisect: hjälper till att hitta den specifika commit som introducerade en bugg genom att utföra en binär sökning
+git push --force: tvingar fram en push till ett fjärrlager och skriver över alla ändringar som kan finnas där
+git remote add: lägger till ett nytt fjärrlager
+git remote remove: tar bort ett fjärrlager
+git remote set-url: ändrar URL:en för ett fjärrlager
+git log --author: visar commit-historiken för en specifik författare
+git log --since: visar commit-historiken sedan ett specifikt datum
+git log --until: visar commit-historiken fram till ett specifikt datum
+git log --grep: visar commit-historiken för ett specifikt commit-meddelande eller sträng
+git log --pretty: formaterar commit-historiken på ett specifikt sätt
+git diff --cached: visar ändringarna som har iscensatts
+git commit -a -m: lägger till ändringar i uppställningsområdet och sparar ändringar i det lokala förvaret
+git show commit -id: Detta kommando visar en specifik commit. Ersätt commit-id med id för commit som du hittar i commit-loggen efter ordet commit.
+git revert HEAD: git revert kommer att skapa en ny commit som är motsatsen till allt i den givna commit.
+git revert commit_id: Du kan återställa en gammal commit med dess commit-id. Detta öppnar redigeraren så att du kan lägga till ett commit-meddelande.
+git add remote: Detta kommando lägger till ett fjärrlager till ditt lokala arkiv.
+git remote -v: Du kan se alla fjärrlager för ditt lokala arkiv med detta kommando.
+git branch -r: Det här kommandot visar namnet på alla fjärrgrenar som Git spårar för det aktuella arkivet.
+git merge origin/main: Om fjärrförvaret har ändringar som du vill slå samman med din lokala, kommer detta kommando att göra det åt dig
+git remote update: Detta låter dig uppdatera fjärrkontrollen utan att slå samman något innehåll i de lokala grenarna. Du kan ringa git merge eller git checkout för att göra sammanslagningen.
+git push -u ursprung: Om du vill skicka en gren till ett fjärrlager kan du använda kommandot nedan. Kom bara ihåg att lägga till -u för att skapa grenen uppströms
+git push --delete origin: Om du inte längre behöver en fjärrgren kan du ta bort den med kommandot nedan.
+git reset --soft: Det enklaste sättet att ångra den sista Git commit är att utföra kommandot "git reset" med alternativet "–soft" som kommer att bevara ändringar som gjorts i dina filer.
+git config --global alias.<alias-name> <git-command>: Skapa genväg för ett Git-kommando. T.ex. alias.glog "log --graph --oneline" kommer att ställa in "git glog" motsvarande "git log --graph --oneline
+git <kommando> -h: Vi kan använda -h por ---help för att få hjälpdetaljer..

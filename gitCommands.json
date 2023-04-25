@@ -1,0 +1,18 @@
+{
+  "git log --pretty":" formaterar commit-historiken på ett specifikt sätt",
+  "git diff --cached": "visar ändringarna som har iscensatts",
+  "git commit -a -m": "lägger till ändringar i uppställningsområdet och sparar ändringar i det lokala förvaret",
+  "git show commit -id": "Detta kommando visar en specifik commit. Ersätt commit-id med id för commit som du hittar i commit-loggen efter ordet commit.",
+  "git revert HEAD": "git revert kommer att skapa en ny commit som är motsatsen till allt i den givna commit.",
+  "git revert commit_id": "Du kan återställa en gammal commit med dess commit-id. Detta öppnar redigeraren så att du kan lägga till ett commit-meddelande.",
+  "git add remote": "Detta kommando lägger till ett fjärrlager till ditt lokala arkiv.",
+  "git remote -v": "Du kan se alla fjärrlager för ditt lokala arkiv med detta kommando.",
+  "git branch -r": "Det här kommandot visar namnet på alla fjärrgrenar som Git spårar för det aktuella arkivet.",
+  "git merge origin/main": "Om fjärrförvaret har ändringar som du vill slå samman med din lokala, kommer detta kommando att göra det åt dig",
+  "git remote update":" Detta låter dig uppdatera fjärrkontrollen utan att slå samman något innehåll i de lokala grenarna. Du kan ringa git merge eller git checkout för att göra sammanslagningen.",
+  "git push -u ursprung": "Om du vill skicka en gren till ett fjärrlager kan du använda kommandot nedan. Kom bara ihåg att lägga till -u för att skapa grenen uppströms",
+  "git push --delete origin":" Om du inte längre behöver en fjärrgren kan du ta bort den med kommandot nedan.",
+  "git reset --soft":" Det enklaste sättet att ångra den sista Git commit är att utföra kommandot git reset med alternativet –soft som kommer att bevara ändringar som gjorts i dina filer.",
+  "git config --global alias.<alias-name> <git-command>":" Skapa genväg för ett Git-kommando. T.ex. alias.glog log --graph --oneline kommer att ställa in git glog motsvarande git log --graph --oneline",
+  "git <kommando> -h":" Vi kan använda -h por ---help för att få hjälpdetaljer."
+}

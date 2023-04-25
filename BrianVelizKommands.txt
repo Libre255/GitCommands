@@ -1,4 +1,3 @@
-e eller sträng
 git log --pretty: formaterar commit-historiken på ett specifikt sätt
 git diff --cached: visar ändringarna som har iscensatts
 git commit -a -m: lägger till ändringar i uppställningsområdet och sparar ändringar i det lokala förvaret
